@@ -1,1 +1,16 @@
-#include iostream std;
+#include <iostream>
+usingnamespace std;
+int main() {
+    int x, y;        
+    cout << "Enter two integers: ";
+    cin >> x >> y;   
+
+    int r = x * y;   
+    cout << "Result (r): " << r << endl;
+
+    if (r <= 0) {    
+        cout << "mancing iwak" << endl; 
+    }
+
+    return 0;        
+}
